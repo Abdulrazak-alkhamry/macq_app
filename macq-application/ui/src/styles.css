@@ -1,5 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-h1 {
-  font-size: 2rem;
-  color: #5f9ea0;
+body {
+  background-color: #212529;
+}
+
+.horse-table {
+  width: 70%;
+  margin: 10rem auto 0 auto;
+}
+
+img {
+  height: 15vh;
+  width: 15vw;
+  border-radius: 20px;
+}
+
+thead > tr > th {
+  color: #ffc107;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: rgba(95, 95, 95, 0.582);
 }
